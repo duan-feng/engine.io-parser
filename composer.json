@@ -1,0 +1,26 @@
+{
+    "name": "swooleio/engine.io-parser",
+    "description": "",
+    "keywords": [],
+    "authors": [
+        {
+            "name": "fdlfy",
+            "email": "fakedec@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.0",
+        "ext-swoole": "*"
+    },
+    "require-dev": {
+        "eaglewu/swoole-ide-helper": "dev-master",
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SwooleIO\\EngineIO\\Parser\\": "src/"
+        }
+    }
+}
